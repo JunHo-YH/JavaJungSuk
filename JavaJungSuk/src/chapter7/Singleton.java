@@ -1,7 +1,7 @@
 package chapter7;
 
 final class Singleton {
-	private static Singleton s;
+	private static Singleton s = new Singleton();
 
 	private Singleton() {
 	}
